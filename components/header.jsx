@@ -63,7 +63,7 @@ export default async function Header() {
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48">
                 <DropdownMenuItem asChild>
-                  <Link href="/resume" className="flex items-center gap-2">
+                  <Link href="/resume" className="flex items-center gap-2"> 
                     <FileText className="h-4 w-4" />
                     Build Resume
                   </Link>
@@ -111,3 +111,4 @@ export default async function Header() {
   );
 }
 
+            {/* User button with avatar and options, visible only when signed in */}
